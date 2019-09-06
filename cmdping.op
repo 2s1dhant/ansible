@@ -1,0 +1,16 @@
+localhost | CHANGED | rc=0 >>
+PING google.com (172.217.166.174) 56(84) bytes of data.
+64 bytes from bom07s20-in-f14.1e100.net (172.217.166.174): icmp_seq=1 ttl=54 time=26.5 ms
+64 bytes from bom07s20-in-f14.1e100.net (172.217.166.174): icmp_seq=2 ttl=54 time=26.5 ms
+64 bytes from bom07s20-in-f14.1e100.net (172.217.166.174): icmp_seq=3 ttl=54 time=26.5 ms
+64 bytes from bom07s20-in-f14.1e100.net (172.217.166.174): icmp_seq=4 ttl=54 time=26.5 ms
+64 bytes from bom07s20-in-f14.1e100.net (172.217.166.174): icmp_seq=5 ttl=54 time=26.5 ms
+64 bytes from bom07s20-in-f14.1e100.net (172.217.166.174): icmp_seq=6 ttl=54 time=26.5 ms
+64 bytes from bom07s20-in-f14.1e100.net (172.217.166.174): icmp_seq=7 ttl=54 time=26.6 ms
+64 bytes from bom07s20-in-f14.1e100.net (172.217.166.174): icmp_seq=8 ttl=54 time=26.5 ms
+64 bytes from bom07s20-in-f14.1e100.net (172.217.166.174): icmp_seq=9 ttl=54 time=26.5 ms
+64 bytes from bom07s20-in-f14.1e100.net (172.217.166.174): icmp_seq=10 ttl=54 time=26.5 ms
+
+--- google.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+rtt min/avg/max/mdev = 26.514/26.574/26.610/0.106 ms
