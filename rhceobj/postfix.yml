@@ -1,0 +1,24 @@
+---
+  - name: Postfix Config
+    hosts: localhost
+    tasks: 
+      - name: Install Postfix
+        yum:
+          name: postfix
+          state: latest
+
+      - name: Firewall Config
+        firewalld:
+          permanent: yes
+          port: 25
+          state: enabled
+          zone: public
+          immediate: yes
+
+      - name: Enable & start postfix
+        systemd:
+          name: postfix.service
+          state: start
+          enabled: yes
+
+      
