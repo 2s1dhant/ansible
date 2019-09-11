@@ -21,4 +21,11 @@
           state: start
           enabled: yes
 
-      
+      -name: Adding configs
+        command: postconf -e mydestination=
+        command: postconf -e myorigin=system2.example.com
+        command: postconf -e inetinterfaces=loopback-only
+        command: postconf -e mynetworks=127.0.0.0
+        command: postconf -e relayhost=smtp.example.com
+
+
