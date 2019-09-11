@@ -4,6 +4,7 @@
     tasks: 
       - name: Install Postfix
         yum:
+          become: yes
           name: postfix
           state: latest
 
@@ -27,5 +28,3 @@
         command: postconf -e inetinterfaces=loopback-only
         command: postconf -e mynetworks=127.0.0.0
         command: postconf -e relayhost=smtp.example.com
-
-
